@@ -1,0 +1,65 @@
+O'Reilly Connection Grapher
+===============================
+
+Feedback: tobrien@discursive.com
+
+Requirements:
+
+	Python 2.4
+	Firefox (or Mozilla or Deer Park)
+	ClientCookie
+	GraphViz
+
+Note: This script has been tested on both Windows and Linux.
+
+1. This program relies on CookieClient to deal with Cookies and handle the 
+meta-refresh tags involved in the login process. Download and
+install version 1.0.3 of CookieClient from the CookieClient project page 
+listed below:
+
+	http://wwwsearch.sourceforge.net/ClientCookie/
+
+1.5. Download and install Graphviz.  http://www.graphviz.org/Download.php
+
+2. IMPORTANT: This script needs to authenticate with the O'Reilly network.
+If you take a look at your cookie cache after logging into an O'Reilly
+network site you will see a number of cookies that all play a part in
+authentication and access control.  So, instead of writing some nasty
+Python script to handle cookies, gendot uses ClientCookie to piggyback
+on the Mozilla cookies.txt 
+
+--> You must change config.py to point to your own cookies.txt file 
+
+--> AND, you must log in to the O'Reilly Connection site to put the
+    apropriate cookies in your cookies.txt file.
+
+3. Change config.py - If you go to the Connection site, and view your
+own FOAF document, you'll see that you have been assigned a Connection
+userId.  Please change centralUserId and rootDudeNick to our id and
+your name.  
+
+4. In config.py, maxLevel is set to 2, increase this to 3 at your own
+peril, and only increase it beyond 3 if you have the express permission
+of O'Reilly.
+
+5. Run the script like this:
+
+    python gendot.py
+
+6. Once the script runs, you'll have a file named "foaf.neato".  To
+render this file simply run:
+
+    neato -Tgif foaf.neato
+
+That's it.  Here are some ideas:
+
+- Mess with the preamble and the epilouge in config.py.  Read up on 
+graphviz and learn about the many different graphs you can make.
+
+- Figure out how to authenticate to ORA network without that cookie
+nastiness.  Me, I'd just prefer config.py hold a username and
+password and we just use simple BASIC auth.
+
+
+Tim O'Brien
+tobrien@discursive.com

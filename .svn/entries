@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1"
+   name=""
+   committed-date="2006-06-16T06:58:52.538388Z"
+   url="http://holmes.discursive.com/svn/disc-priv/home/package/ora-graph-preview"
+   last-author="root"
+   kind="dir"
+   uuid="2cb709f3-5116-0410-a89e-e2b302862e3a"
+   revision="337"/>
+<entry
+   committed-rev="1"
+   name="LICENSE"
+   text-time="2007-10-18T09:18:14.000000Z"
+   committed-date="2006-06-16T06:58:52.538388Z"
+   checksum="2a944942e1496af1886903d274dedb13"
+   last-author="root"
+   kind="file"
+   prop-time="2007-10-18T09:18:14.000000Z"/>
+<entry
+   committed-rev="1"
+   name="relation.py"
+   text-time="2007-10-18T09:18:14.000000Z"
+   committed-date="2006-06-16T06:58:52.538388Z"
+   checksum="b1e90a00d269c46d1c2cf2b41decc86d"
+   last-author="root"
+   kind="file"
+   prop-time="2007-10-18T09:18:14.000000Z"/>
+<entry
+   committed-rev="1"
+   name="gendot.py"
+   text-time="2007-10-18T09:18:14.000000Z"
+   committed-date="2006-06-16T06:58:52.538388Z"
+   checksum="5287917d2be8f35ea4a6aed9584d1747"
+   last-author="root"
+   kind="file"
+   prop-time="2007-10-18T09:18:14.000000Z"/>
+<entry
+   committed-rev="1"
+   name="config.py.win"
+   text-time="2007-10-18T09:18:14.000000Z"
+   committed-date="2006-06-16T06:58:52.538388Z"
+   checksum="b156982b1936676d825a8cc5de25c751"
+   last-author="root"
+   kind="file"
+   prop-time="2007-10-18T09:18:14.000000Z"/>
+<entry
+   committed-rev="1"
+   name="config.py"
+   text-time="2007-10-18T09:18:14.000000Z"
+   committed-date="2006-06-16T06:58:52.538388Z"
+   checksum="3fe048cd456bf2890c1c3ca0d586688d"
+   last-author="root"
+   kind="file"
+   prop-time="2007-10-18T09:18:14.000000Z"/>
+<entry
+   committed-rev="1"
+   name="README"
+   text-time="2007-10-18T09:18:14.000000Z"
+   committed-date="2006-06-16T06:58:52.538388Z"
+   checksum="de737f1d07050d9a0d97da41f7e367d0"
+   last-author="root"
+   kind="file"
+   prop-time="2007-10-18T09:18:14.000000Z"/>
+</wc-entries>
